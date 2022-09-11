@@ -117,6 +117,8 @@ header {
 
 .logoweb {
     color: var(--colorfont);
+    margin-left: 7.5vw;
+    max-width: 20%;
 }
 
 .logoweb h2{
@@ -126,9 +128,43 @@ header {
 
 .loguito {
     width: 0.6em;
-    height: 1em;
+    padding-right: 12px;
+    font-size: 0.7em;
     border-left: 0.5em solid var(--patito);
 }
+
+.nav-bar {
+    width: 100%;
+    padding: 15px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    margin-right: 7.5vw;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+
+.menu p {
+    display: inline-block;
+    color: var(--colorfont);
+    font-weight: 700;
+    font-family: var(--fuente1);
+}
+
+.menu p:last-of-type {
+    border: 1px solid var(--patito);
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+}
+
 
 .separador {
     background: url(./Img/separador.png);
