@@ -1,0 +1,143 @@
+:root{
+    --patito:rgb(217, 255, 0);
+    --darky: #353535;
+    --fuente1: 'Oswald', sans-serif;
+    --fuente2: 'Montserrat', sans-serif;
+    --colorfont: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: var(--fuente2);
+}    
+
+header {
+    display: block;    
+    height: 100vh;
+    background-image:url(./iMG/madero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.contenedor {
+    display: block;
+    width: 100%;
+    padding-top: 17px;
+    color: var(--colorfont);
+}
+.contact-icons {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-icons a {
+    font-size: 1.75em;
+    margin-right: 25px;
+    color: white;
+}
+
+.contact-icons a:hover {
+    color: var(--patito);
+}
+
+.contact-icons a:last-child {
+    margin-right: 0;
+}
+
+.evento {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    column-gap: 5em;
+    margin: auto;
+    margin-top: 4.2em;
+    text-align: center;
+}
+
+.evento p{
+    display: block;
+    width: fit-content;
+    padding: 10px 5px;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.evento p i {
+    font-size: 1.6em;
+    color: var(--patito);
+    margin-right: 0.25em;
+}
+
+.titular {
+    display: block;
+    width: 100%;
+}
+
+.titular h1 {
+    width: fit-content;
+    margin: auto;
+    padding-top: 0.1em;
+    font-family: var(--fuente2);
+    font-weight: 700;
+    font-size: 8.5em;
+    text-shadow: 1px 1px 2px black;
+}
+
+.titular p {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2.8em;
+    font-size: 1.24em;
+    font-family: var(--fuente2);
+    font-weight: 500;
+    text-shadow: 1px 2px 5px black;
+}
+
+.titular p span {
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
+}
+
+.nav-bar {
+    background-color: var(--darky);
+    height: 12vh;
+}
+
+.logoweb {
+    color: var(--colorfont);
+}
+
+.logoweb h2{
+    padding-left: 0.4em;
+    font-size: 2em;
+}
+
+.loguito {
+    width: 0.6em;
+    height: 1em;
+    border-left: 0.5em solid var(--patito);
+}
+
+.separador {
+    background: url(./Img/separador.png);
+}
+
+.slimborder {
+    border-bottom: 1px solid var(--patito);
+}
+
+.fatborder {
+    border-bottom: 4px solid var(--patito);
+}
